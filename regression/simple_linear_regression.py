@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score
 
 # LINEAR MODEL REGRESSION EXAMPLE
 
-dataframe = pd.read_csv('FuelConsumptionCo2.csv')
+dataframe = pd.read_csv('../datasets/FuelConsumptionCo2.csv')
 selected_features = dataframe[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_COMB', 'CO2EMISSIONS']]
 
 # split dataset into train and test sets.80% of the entire dataset will be used for training and 20% for testing

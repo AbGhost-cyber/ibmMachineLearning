@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 # CLASSIFICATION EXAMPLE USING K-NEAREST NEIGHBOURS
 
-df = pd.read_csv('teleCust1000t.csv')
+df = pd.read_csv('../datasets/teleCust1000t.csv')
 
 # print(df['income'].value_counts())
 # df.hist(column='income', bins=50)

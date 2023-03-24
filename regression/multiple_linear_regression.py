@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn import linear_model
 
-dataframe = pd.read_csv('FuelConsumptionCo2.csv')
+dataframe = pd.read_csv('../datasets/FuelConsumptionCo2.csv')
 cdf = dataframe[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_CITY',
                  'FUELCONSUMPTION_HWY', 'FUELCONSUMPTION_COMB', 'CO2EMISSIONS']]
 

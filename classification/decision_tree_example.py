@@ -12,7 +12,7 @@ import sklearn.tree as tree
 # and comma is the most commonly used delimiter for CSV files.
 # However, other delimiters such as tabs, semicolons, or spaces can also be used,
 # and the delimiter parameter can be set accordingly.
-my_data = pd.read_csv('drug200.csv', delimiter=',')
+my_data = pd.read_csv('../datasets/drug200.csv', delimiter=',')
 
 # PREPROCESSING
 X = my_data.drop(columns='Drug').values

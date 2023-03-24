@@ -13,7 +13,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-raw_data = pd.read_csv('creditcard.csv')
+raw_data = pd.read_csv('../datasets/creditcard.csv')
 
 n_replicas = 10
 
