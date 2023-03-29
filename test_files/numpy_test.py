@@ -52,13 +52,13 @@ array3 = np.array([[2, 2, 2], [3, 4, 5], [6, 7, 8]])
 # print(np.power(array2, 2))
 
 # broadcasting
-array4 = np.array([[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3]])
+array4 = np.array([[0, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3]])
 array5 = np.array([0, 1, 2, 3])
 # print(array5 + array4)
 array6 = np.ones((5, 5))
 array7 = np.array([0, 1, 2, 3, 4])
-print(array6 * array7)
+# print(array6 * array7)
 
 #
 if __name__ == '__main__':
-    print()
+    print(array4)
