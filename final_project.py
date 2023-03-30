@@ -69,8 +69,8 @@ SVM = SVC()
 SVM.fit(x_train, y_train)
 predictions = SVM.predict(x_test)
 SVM_Accuracy_Score = accuracy_score(y_test, predictions)
-SVM_JaccardIndex = jaccard_score(y_test, predictions)
-SVM_F1_Score = f1_score(y_test, predictions)
+SVM_JaccardIndex = jaccard_score(y_test, predictions, average='weighted')
+SVM_F1_Score = f1_score(y_test, predictions, average='weighted')
 
 m_report = pd.DataFrame(
     {'Algorithm': ['KNN', 'Decision Tree', 'Logistic Regression', 'SVM'],
